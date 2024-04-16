@@ -27,10 +27,21 @@ state of a patient must be died or alive - we adjust that as well
   
 # Your Question - Is dying independent of sex?
 
+# Introduction
+
+$h_0$ There is no difference in death rate based on sex
+
+$h_0$ There is a difference in death rates based on the sex of the person 
 
 
+# Methods
 
+Variables for this study are sex and result
 
+We will find if there is a difference in death rates based on the sex 
+
+Results is categorical variable 
+Sex is a categorical variable so we will use the cat~cat helper file 
 
 ## Graphical results - use ggplot commands to do this  
 
