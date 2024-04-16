@@ -41,13 +41,19 @@ Variables for this study are sex and result
 We will find if there is a difference in death rates based on the sex 
 
 Results is categorical variable 
+
 Sex is a categorical variable so we will use the cat~cat helper file 
 
 ## Graphical results - use ggplot commands to do this  
 
+```{r}
+barchartGC(~result + Sex,data=kRdata)
+barchartGC(~result + Sex,data=kRdata, type="percent")
+
+```
 
 
-  
+  The graph shows that 
 
 
 
@@ -55,6 +61,7 @@ Sex is a categorical variable so we will use the cat~cat helper file
 
   
 ## Numerical results
+
 
 
 ## Inferential results 
