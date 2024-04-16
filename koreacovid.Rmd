@@ -53,13 +53,11 @@ barchartGC(~result + Sex,data=kRdata, type="percent")
 ```
 
 
-  The graph shows that 
+  The graph shows that the is a difference in death rates based on sex. Looking at the graph above we can see that Males have a higher death rate then Females.
 
 
 
 
-
-  
 ## Numerical results
 
 ```{r}
