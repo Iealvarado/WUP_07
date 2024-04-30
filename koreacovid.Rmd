@@ -53,7 +53,7 @@ barchartGC(~result + Sex,data=kRdata, type="percent")
 ```
 
 
-  The graph shows that the is a difference in death rates based on sex. Looking at the graph above we can see that Males have a higher death rate then Females.
+  The graph shows that the is a difference in death rates based on sex. Looking at the graph above we can see that Males have a higher death rate then Females.with the average for males being 60% and females average being below 40% 
 
 
 
@@ -66,7 +66,7 @@ rowPerc(table1)
 colPerc(table1)
 ```
 
-The table shows that males death rates are higher then the females males having a rate of 64% and females having a rate of 36%
+The table shows that males death rates are higher then the females males having a rate of 64% while females having a rate of 36%
 
 
 ## Inferential results 
@@ -77,7 +77,11 @@ chisqtestGC(table1)
 fisher.test(table1)
 ```
 
-
+The Chi-square test p value is 0.0012 with is less than 0.05 therefore we will reject the hypothesis meaning there is a significant difference in deaths based on sex
+the p-value on the fisher exact is 0.0009 meaning the null hypothesis can be rejected because it is less then 0.05
+the odds ratio is 2.3:1 this means men are at higher risk then women due to their larger death rate 
 
 ## Conclusions
 
+"Is there a difference in korean data death rate based on sex?"
+with the numerical graphical results we can come to the conclusion that the sex of the person does matter as men do have a higher mortality rate. Also because our P value = 0.0012 is smaller than 0.05 the null hypothesis is rejected and proves that there is a difference in death rated due to the persons sex. 
